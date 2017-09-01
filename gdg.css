@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    width: 100%; 
+    height: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+}
+header .logo__name{
+    font-size: 1.5em;
+    line-height: 70px;
+    vertical-align: middle;
+    float: left;
+}
+header ul{
+    display: inline-block;
+    float: right;
+    line-height: 70px;
+    vertical-align: middle;
+}
+header ul li{
+    display: inline-block;
+    font-size: 0.8em;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+}
+#intro__box{
+    background-color: #fff;
+}
+#tools__box{}
+#meetup__box{}
+
+/* Browser correction styles */
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
